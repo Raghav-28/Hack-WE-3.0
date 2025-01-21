@@ -1,0 +1,97 @@
+/* Base styles for the About section */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom,#00A6D2, #0e7490 );
+  padding: 3.125rem; /* 50px to rem */
+  height: 100vh; /* Full screen height */
+  perspective: 1200px; /* Add depth for 3D effect */
+  overflow: hidden;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  max-width: 62.5rem; /* 1000px to rem */
+  color: white;
+  transform-style: preserve-3d; /* Enables 3D transformations */
+  transition: transform 1s ease-out;
+}
+
+.about-image {
+  max-width: 18.75rem; /* 300px to rem */
+  margin-right: 1.875rem; /* 30px to rem */
+  transition: transform 0.6s ease-out;
+  transform-origin: center center;
+}
+
+.about-text {
+  max-width: 500px;
+  margin-left: 0.2rem;
+  opacity: 0; /* Initially invisible */
+  transform: translateX(80px); /* Start position for smooth entrance */
+  transition: transform 2s ease-out, opacity 1s ease-out;
+}
+
+/* Heading style */
+.about-text h2 {
+  font-size: 2.25rem; /* 36px to rem */
+  font-weight: bold;
+  margin-bottom: 1.25rem; /* 20px to rem */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Paragraph text style */
+.about-text p {
+  font-size: 1.125rem; /* 18px to rem */
+  line-height: 1.8;
+  text-align: Center;
+  letter-spacing: 0.5px;
+}
+
+/* Strong text for emphasis */
+.about-text strong {
+  font-weight: bold;
+}
+
+/* Mobile styling */
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 2rem 1rem; /* 20px to rem */
+    height: auto; /* Adjust height for smaller screens */
+    transform: none; /* Remove 3D transformation */
+    transition: none;
+
+  }
+.Heading{
+  color: white;
+}
+  .about-content {
+    flex-direction: column;
+    transform: none; /* Remove 3D transformation */
+    transition: none; /* Remove transition */
+  }
+
+  .about-image {
+    display: none; /* Hide image on small screens */
+  }
+
+  .about-text {
+    margin-left: 0;
+    opacity: 1; /* Make text visible */
+    transform: none; /* Remove transformation */
+    transition: none; /* Remove transition */
+  }
+
+  .about-text h2 {
+    font-size: 1.75rem; /* Adjust heading size */
+    margin-bottom: 1rem; /* Adjust margin */
+  }
+
+  .about-text p {
+    font-size: 0.5rem;
+    padding-bottom: 1rem; /* Adjust paragraph size */
+  }
+}
