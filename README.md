@@ -1,12 +1,11 @@
-# GHR Hack 1.0
+#  Hack-WE 3.0
 
-Welcome to the official website of **GHR Hack 1.0** .This website serves as the central hub for all information related to the event, showcasing event details, schedules, and more.
+Welcome to the official website of **Hack-We 3.0** .This website serves as the central hub for all information related to the event, showcasing event details, schedules, and more.
 
-![](./src/assets/images/GHRHACK.png)
 
 
 ## 🌐 Live Link
-Access the website here: [GHR Hack 1.0](https://ghr-hack-1-0.vercel.app/)
+Access the website here: [HACK-WE 3.0](https://hack-we-3-0.vercel.app/)
 
 ## 🛠️ Technologies Used
 
@@ -36,12 +35,12 @@ GHR-Hack-1-0
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/GHR-Hack-1-0.git
+   git clone https://github.com/your-username/
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd GHR-Hack-1-0
+   cd HACK-WE 3.0
    ```
 
 3. Install dependencies:
@@ -83,9 +82,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## 📞 Contact
 
 For any inquiries or support, please contact:
-- **Email:** Mrsidharth2004@gmail.com
-- **GitHub:** [Unstopablesid](https://github.com/unstopablesid)
-- **Website:** [GHR Hack 1.0](https://ghr-hack-1-0.vercel.app/)
+- **Email:** kraghavgupta@gmail.com
+- **Website:** [HACK-WE 3.0](https://hack-we-3-0.vercel.app/)
 
 ---
 
