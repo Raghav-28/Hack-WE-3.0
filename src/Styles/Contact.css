@@ -23,7 +23,7 @@
     transform: translateX(0) !important;
 }
  .Main1{
-    background-color:#011947 ;
+    background:#247448;
  }
 
 @media  screen and (max-width: 768px) {

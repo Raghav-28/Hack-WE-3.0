@@ -8,51 +8,25 @@ const EventHighlights = () => {
   const textRef = useRef(null);
 
   useEffect(() => {
-    const isSmallScreen = window.innerWidth <= 768;
+    // Register ScrollTrigger plugin
+    gsap.registerPlugin(ScrollTrigger);
 
-    if (!isSmallScreen) {
-      gsap.registerPlugin(ScrollTrigger);
+    // Reset image styles using gsap.set
+    gsap.set(imageRef.current, {
+      opacity: 1,
+      x: 0,
+      rotationY: 0, // Remove any previous transform and reset opacity
+    });
 
-      gsap.fromTo(
-        imageRef.current,
-        {
-          opacity: 0,
-          x: 200,
-          rotationY: -45,
-        },
-        {
-          opacity: 1,
-          x: 0,
-          rotationY: 0,
-          scrollTrigger: {
-            trigger: imageRef.current,
-            start: "top 80%",
-            end: "bottom 20%",
-            scrub: true,
-          },
-        }
-      );
+    // Reset text styles using gsap.set
+    gsap.set(textRef.current, {
+      opacity: 1,
+      x: 0,
+      rotationY: 0, // Remove any previous transform and reset opacity
+    });
 
-      gsap.fromTo(
-        textRef.current,
-        {
-          opacity: 0,
-          x: -200,
-          rotationY: 45,
-        },
-        {
-          opacity: 1,
-          x: 0,
-          rotationY: 0,
-          scrollTrigger: {
-            trigger: textRef.current,
-            start: "top 80%",
-            end: "bottom 20%",
-            scrub: true,
-          },
-        }
-      );
-    }
+    // Optionally, you can remove ScrollTriggers if they exist
+    ScrollTrigger.getAll().forEach(trigger => trigger.kill());
   }, []);
 
   return (
@@ -60,29 +34,20 @@ const EventHighlights = () => {
       <div className="highlights-content">
         <div ref={textRef} className="highlights-text z-20">
           <h2 className="text-white">Event Highlights</h2>
-          <ul>
-            <li>
-              <strong>Duration:</strong> 24 hours of Hybrid innovation.
-            </li>
-            <li>
-              <strong>Tracks:</strong> Artificial Intelligence, Blockchain,
-              Sustainability, FinTech, Healthcare, Open Innovation and lot more.
-            </li>
-            <li>
-              <strong>Networking Opportunities:</strong> Collaborate with
-              industry experts, mentors, and peers.
-            </li>
-            <li>
-              <strong>Recognition:</strong> Certificates for all participants.
-            </li>
-            <li>
-              <strong>Exciting Perks:</strong> Goodies, swag, free meals, and
-              more.
-            </li>
-          </ul>
+          <div className="text-left justify-center mx-auto">
+          <strong className="text-black text-1xl md:text-2xl">Duration:</strong> 24 hours of Hybrid innovation. <br />
+              <strong className="text-black text-1xl md:text-2xl">Tracks:</strong> Artificial Intelligence, Blockchain,
+              Sustainability, FinTech, Healthcare, Open Innovation and lot more. <br />
+              <strong className="text-black text-1xl md:text-2xl">Networking Opportunities:</strong> Collaborate with
+              industry experts, mentors, and peers. <br />
+              <strong className="text-black text-1xl md:text-2xl">Recognition:</strong> Certificates for all participants. <br />
+              <strong className="text-black text-1xl md:text-2xl">Exciting Perks:</strong> Goodies, swag, free meals, and
+              more. <br />
+          </div>
+            
         </div>
         <img
-         
+          ref={imageRef}
           src=""
           alt=""
           className="highlights-image"

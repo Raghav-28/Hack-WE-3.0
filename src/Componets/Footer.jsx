@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="footer-container max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
           {/* Logo and About Section */}
           <div className="footer-about text-center md:text-left text-xs md:text-sm">
-            <h1 className="font-bold text-xl md:text-3xl mb-4">
-              <span className="text-orange-500">GHR </span> HACK
+            <h1 className="font-bold text-2xl md:text-3xl mb-4">
+              <span className="text-black">HACK </span> WE 3.0
             </h1>
             <p className="leading-relaxed">
               <strong>HACK WE 3.0</strong>, a groundbreaking hackathon by{" "}
@@ -19,32 +19,23 @@ const Footer = () => {
           </div>
 
           {/* Useful Links Section */}
-          <div className="UseFull font-[Ghr4] footer-links md:text-left md:text-sm">
-            <h3 className=" md:text-xl font-bold mb-1">Useful Links</h3>
+          <div className="UseFull font-[Ghr4] footer-links md:text-left md:text-sm text-sm">
+            <h3 className=" md:text-xl font-semibold mb-1">Useful Links</h3>
             <ul className="space-y-0">
+
               <li>
                 <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className=" text-xl md:text-sm"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  href=""
+                  href="https://dorahacks.io/hackathon/826/buidl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-grey-500 text-[10px] md:text-sm"
                 >
-                  Devfolio
+                  Dorahacks
                 </a>
               </li>
               <li>
                 <a
-                  href=""
+                  href="https://www.instagram.com/avensis_2025?igsh=c2J6dHhqNDkyMTVv"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-grey-500 text-[10px] md:text-sm"
@@ -64,7 +55,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="https://discord.com/channels/1331501278571794463/1331502007068135545"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-grey-500 text-[10px] md:text-sm"
@@ -85,7 +76,7 @@ const Footer = () => {
               Maharaja Surajmal Institue of Technology <br />
              Janakpuri NewDelhi<br />
             </p>
-            <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-2">
+            {/* <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-2">
               <a
                 href=""
                 target="_blank"
@@ -113,7 +104,7 @@ const Footer = () => {
               >
                 <i className="ri-linkedin-box-line text-lg md:text-2xl"></i>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="text-center mt-8 text-[10px] md:text-sm">

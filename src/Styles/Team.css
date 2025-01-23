@@ -1,11 +1,10 @@
 .Team{
-    background:linear-gradient(to bottom,#014EB6,#011947
-    ) ;
+    background:#247448;
 }
 /* Team Section Styles */
 .team-section {
     padding: 50px 20px;
-    background-color: #000; /* Adjust as needed */
+    /* background-color: #000; Adjust as needed */
     text-align: center;
   }
   

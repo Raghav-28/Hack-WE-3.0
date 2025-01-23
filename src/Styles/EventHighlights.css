@@ -3,9 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0e7490 ;
-  padding: 3.125rem; /* 50px to rem */
-  height: 100vh; /* Full screen height */
+  background: #247448 ;
+  padding: 3.125rem; /* 50px to rem */ /* Full screen height */
   perspective: 1200px; /* Add depth for 3D effect */
   /* overflow: hidden; */
 }
@@ -15,16 +14,16 @@
   align-items: center;
   max-width: 62.5rem; /* 1000px to rem */
   color: white;
-  transform-style: preserve-3d; /* Enables 3D transformations */
-  transition: transform 1s ease-out;
+  /* transform-style: preserve-3d; /* Enables 3D transformations */
+  /* transition: transform 1s ease-out; */ 
 }
 
 .highlights-text {
   max-width: 600px;
   margin-right: 1.875rem; /* Added margin on right side */
   opacity: 0; /* Initially invisible */
-  transform: translateX(-100px); /* Start position for smooth entrance */
-  transition: transform 2s ease-out, opacity 1s ease-out;
+  /* transform: translateX(-100px); 
+  transition: transform 2s ease-out, opacity 1s ease-out; */
 }
 
 /* Heading style */

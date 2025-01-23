@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../Styles/RegistrationDetails.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import qrimage from "../assets/hackwe qr.png"
 gsap.registerPlugin(ScrollTrigger);
 
 const RegistrationDetails = () => {
@@ -44,13 +44,15 @@ const RegistrationDetails = () => {
     }, []);
 
     return (
-        <div className=" bg-[#014EB6] flex justify-center items-center min-h-screen registration font-[Ghr4]">
+        <div className=" bg-[#247448] flex justify-center items-center min-h-screen registration font-[Ghr4]">
             <div className=" text-center text-white py-10">
                 <h1 className="text-4xl font-bold mb-10 ">REGISTRATION DETAILS</h1>
                 <div className="animated-circle-container flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
                     <div className="flex flex-col items-center animated-circle left-circle">
-                        <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
-                            <i className="fas fa-qrcode text-black text-9xl"></i>
+                        <div className="bg-[#1db292] rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
+                            <i className="  text-9xl">
+                                <img src={qrimage} alt="" />
+                            </i>
                         </div>
                         <h2 className="text-xl font-bold text-black">How to Register</h2>
                         <p>Scan the QR code</p>
@@ -60,7 +62,7 @@ const RegistrationDetails = () => {
                         <i className="fas fa-chevron-right"></i>
                     </div>
                     <div className="flex flex-col items-center animated-circle top-circle">
-                        <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
+                        <div className="bg-[#1db292] rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
                             <i className="fas fa-dollar-sign text-black text-9xl"></i>
                         </div>
                         <h2 className="text-xl font-bold text-black">No Fees</h2>
@@ -72,7 +74,7 @@ const RegistrationDetails = () => {
                         <i className="fas fa-chevron-right"></i>
                     </div>
                     <div className="flex flex-col items-center animated-circle right-circle">
-                        <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
+                        <div className="bg-[#1db292] rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
                             <i className="fas fa-user-graduate text-black text-9xl"></i>
                         </div>
                         <h2 className="text-xl font-bold text-black">Eligibility</h2>

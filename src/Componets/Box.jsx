@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import TridentGold from "../assets/Prizes/Trident-Gold.png"; // Import image paths
 
 const prizes = [
-  { position: "2nd Prize", amount: "₹5,000", medal: "Silver", icon: TridentGold },
-  { position: "1st Prize", amount: "₹11,000", medal: "Gold", icon: TridentGold },
-  { position: "3rd Prize", amount: "₹3,000", medal: "Bronze", icon: TridentGold },
-  { position: "Unique Idea Prize", amount: "₹2,000", medal: "Gold", icon: TridentGold },
-  { position: "Swags & Goodies", amount: "", medal: "Gold", icon: TridentGold },
+  { position: "1st Prize", amount: "₹14,000", medal: "Silver", icon: TridentGold },
+  { position: "2nd Prize", amount: "₹7,000", medal: "Gold", icon: TridentGold },
+  // { position: "3rd Prize", amount: "₹3,000", medal: "Bronze", icon: TridentGold },
+  { position: "Unique Idea Prize", amount: "₹4,000", medal: "Gold", icon: TridentGold },
+  // { position: "Swags & Goodies", amount: "", medal: "Gold", icon: TridentGold },
 ];
 
 const PrizeCards = () => {
@@ -40,13 +40,14 @@ const PrizeCards = () => {
   }, []);
 
   return (
-    <section className="bg-[#014EB6] text-white py-16">
+    
+    <section className="bg-[#247448] text-white py-16">
       <h1 className="text-5xl font-bold text-center py-8">Prizes</h1>
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
         {prizes.map((prize, index) => (
           <div
             key={index}
-            className={`prize-card w-full rounded-xl p-6 text-center shadow-lg bg-white text-black transition-transform duration-300 ease-in-out transform ${
+            className={`prize-card w-full rounded-xl p-6 text-center shadow-lg bg-[#1db292] text-black transition-transform duration-300 ease-in-out transform ${
               index === 0
                 ? "prize-card-left"
                 : index === 1

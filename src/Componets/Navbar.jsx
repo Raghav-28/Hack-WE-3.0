@@ -1,12 +1,12 @@
 import "../Styles/Navbar.css"; // Optional for custom styling
-// import Logo from "../assets/images/.png"; // Optional for custom styling
+import Logo from "../assets/images/bannerimg.jpg"; // Optional for custom styling
 
 const Navbar = () => {
   return (
     <nav className="mt-2 bg-black font-[Ghr4] bg-opacity-45 z-20 absolute top-0 left-0 right-0 flex items-center justify-between px-4 md:px-8">
       {/* Logo */}
       <div className="flex items-center">
-        <img className="w-11 h-auto Logo" src="" alt="Logo" />
+        <img className="w-11 h-auto Logo" src={Logo} alt="Logo" />
       </div>
       {/* Navigation Links */}
       <ul className="hidden md:flex nav-links font-[Ghr4] uppercase text-sm md:text-xl space-x-2">
