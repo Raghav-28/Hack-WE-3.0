@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-          <iframe className='h-50 w-34' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2333.451515661097!2d75.55092737525474!3d20.96213408067061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90e6dda5a2297%3A0xed1012e1b1c57106!2sG%20H%20Raisoni%20Institute%20of%20Engineering%20and%20Business%20Management%20jalgaon!5e1!3m2!1sen!2sin!4v1736179417023!5m2!1sen!2sin"  allowFullscreen=""referrerPolicy="no-referrer-when-downgrade"></iframe>
+          {/* <iframe className='h-50 w-34' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2333.451515661097!2d75.55092737525474!3d20.96213408067061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd90e6dda5a2297%3A0xed1012e1b1c57106!2sG%20H%20Raisoni%20Institute%20of%20Engineering%20and%20Business%20Management%20jalgaon!5e1!3m2!1sen!2sin!4v1736179417023!5m2!1sen!2sin"  allowFullscreen=""referrerPolicy="no-referrer-when-downgrade"></iframe> */}
           </div>
 
           {/* Contact Us Section */}

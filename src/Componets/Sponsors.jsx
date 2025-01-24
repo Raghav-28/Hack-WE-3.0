@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import Dev from '../assets/Sponsers/dorahacks_logo.jpeg';
 
 const Sponsors = () => {
@@ -11,7 +11,7 @@ const Sponsors = () => {
 
         <div className="space-y-12 text-center font-[Ghr4]">
           <div className="text-center"></div>
-            <h3 className="text-3xl font-semibold mb-4">Gold Sponsor</h3>
+            {/* <h3 className="text-3xl font-semibold mb-4"> Sponsor</h3> */}
             <img src={Dev} alt="Vultr" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
