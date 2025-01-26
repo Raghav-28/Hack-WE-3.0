@@ -59,6 +59,7 @@
   @media screen and (max-width: 600px) {
     .faq-container {
       padding: 50px;
+      padding-bottom: 10px;
     }
   
     .faq-container h1 {

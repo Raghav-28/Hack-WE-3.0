@@ -11,7 +11,7 @@ const teamMembers = [
     { name: "Raghav Gupta", role: " Coordinator", photo: Raghav , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
     { name: "Kunal Vashisht", role: " Coordinator", photo:kunal_dev , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
     { name: "Kunal Pandey", role: " Coordinator", photo:Inder , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
-    { name: "John Doe", role: " Coordinator", photo:"" , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
+    // { name: "John Doe", role: " Coordinator", photo:"" , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
 ];
 
 const Team = () => {
