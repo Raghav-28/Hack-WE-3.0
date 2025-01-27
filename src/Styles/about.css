@@ -14,6 +14,7 @@
   align-items: center;
   max-width: 62.5rem; /* 1000px to rem */
   color: white;
+  line-height: 14px;
   /* transform-style: preserve-3d; 
   transition: transform 1s ease-out; */
 }
@@ -71,6 +72,7 @@
     flex-direction: column;
     transform: none; /* Remove 3D transformation */
     transition: none; /* Remove transition */
+    line-height: 2rem;
   }
 
   .about-image {

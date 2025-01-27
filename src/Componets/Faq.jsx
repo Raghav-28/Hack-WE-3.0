@@ -5,7 +5,7 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    { question: "How big a team can be ?", answer: "Teams can have up to 4 members, but 1 women participation is necessary." },
+    { question: "How big a team can be ?", answer: "Teams can have up to 4 members." },
     { question: "Who all can participate?", answer: "Anyone with a passion for coding and innovation can participate." },
     { question: "Do I need to have any specific qualifications to be a participant for the hackathon?", answer: "No specific qualifications are required. Just enthusiasm to create something awesome!" },
     { question: "Is there any registration fees?", answer: "No,Registration is completely free" },
@@ -24,7 +24,7 @@ const FAQ = () => {
       <ul className="faq-list cursor2">
         {faqs.map((faq, index) => (
           <li key={index} className={`faq-item ${openIndex === index ? "open" : ""}`}>
-            <button className="cursor2 faq-question" onClick={() => toggleFAQ(index)}>
+            <button className="cursor2 faq-question text-black" onClick={() => toggleFAQ(index)}>
               {faq.question}
               <span className="icon">{openIndex === index ? "-" : "+"}</span>
             </button>
