@@ -4,14 +4,17 @@ import Logo from "../assets/Logo/Linked.png"
 import Raghav from "../assets/Team/Raghav_new.jpg"
 import kunal_dev from "../assets/Team/kunal_dev.jpg"
 import Inder from "../assets/Team/Inder.jpg"
-
+import Ishika from "../assets/Team/ishika.jpg";
+import Deepak from "../assets/Team/Deepak.jpg";
 
 // Team data
 const teamMembers = [
-    { name: "Raghav Gupta", role: " Coordinator", photo: Raghav , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
+    { name: "Deepak", role: "Chief Organizer", photo:Deepak , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
+    { name: "Ishika", role: " Chief Organizer", photo:Ishika , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
+    { name: "Raghav Gupta", role: "Event Head", photo: Raghav , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
     { name: "Kunal Vashisht", role: " Coordinator", photo:kunal_dev , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
     { name: "Kunal Pandey", role: " Coordinator", photo:Inder , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
-    // { name: "John Doe", role: " Coordinator", photo:"" , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
+    
 ];
 
 const Team = () => {
