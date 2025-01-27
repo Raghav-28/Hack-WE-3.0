@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import TridentGold from "../assets/Prizes/Trident-Gold.png"; // Import image paths
 
 const prizes = [
-  { position: "1st Prize", amount: "₹14,000", medal: "Silver", icon: TridentGold },
+  { position: "1st Prize", amount: "₹15,000", medal: "Silver", icon: TridentGold },
   { position: "2nd Prize", amount: "₹7,000", medal: "Gold", icon: TridentGold },
   // { position: "3rd Prize", amount: "₹3,000", medal: "Bronze", icon: TridentGold },
-  { position: "Unique Idea Prize", amount: "₹4,000", medal: "Gold", icon: TridentGold },
+  { position: "Unique Idea Prize", amount: "₹3,000", medal: "Gold", icon: TridentGold },
   // { position: "Swags & Goodies", amount: "", medal: "Gold", icon: TridentGold },
 ];
 
