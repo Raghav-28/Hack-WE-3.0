@@ -44,7 +44,7 @@ const AboutEvent = () => {
           <p className="text-white text-sm md:text-base leading-relaxed">
             Hack WiE 3.0 is the flagship hackathon of the Women in Engineering (WiE) sub-branch of IEEE, aimed at
             fostering innovation, collaboration, and creativity while encouraging women’s participation in technology.
-            Scheduled for 29th and 30th March 2025, this 24-hour offline hackathon provides a platform for women tech
+            Scheduled for 29th and 30th January 2025, this 24-hour offline hackathon provides a platform for women tech
             enthusiasts, students, developers, and innovators from across the country to showcase their technical prowess
             and problem-solving abilities. With the theme "Code the Future", Hack WiE 3.0 challenges participants to
             address real-world problems, explore cutting-edge technologies, and push the boundaries of innovation.
